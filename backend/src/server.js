@@ -11,7 +11,7 @@ app.use('/health', healthRouter);
 app.use('/store', keyValueRouter);
 app.get('/', (req, res) => {
     return res.json({
-        message: 'Welcome to our Key-Value store',
+        message: 'Welcome to our Key-Value Store',
     })
 })
 
